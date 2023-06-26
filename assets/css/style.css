@@ -1,2 +1,74 @@
-:root {
+aside {
+    border-right: 5px solid black;
+    width: 100px;
 }
+
+h2 {
+    text-align: right;
+}
+
+.about-me {
+    display: flex;
+}
+
+.work {
+    display: flex;
+}
+
+.work-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.contact-me {
+    display: flex;
+}
+
+.work-item:hover {
+    border: 1px solid purple;
+}
+
+.container {
+    display: flex;
+    border: 10px solid cyan;
+}
+
+.container :first-child {
+    width: 80px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid green;
+}
+
+/*.box :first-child {*/
+/*}*/
+
+.box > * {
+    flex: 0 0 auto;
+}
+
+.background-image-large {
+    height: 390px;
+    width: 890px;
+    background-image: url("https://via.placeholder.com/890x390");
+    margin: 4px;
+}
+
+.background-image-small {
+    height: 185px;
+    width: 440px;
+    background-image: url("https://via.placeholder.com/440x185");
+    margin: 4px;
+}
+
+/*
+Image size = 433px x 140px
+Image size = 890px x 390px
+Border = 5px
+Space between cards = 16px
+ */
