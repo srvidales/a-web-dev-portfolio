@@ -9,70 +9,86 @@
 </head>
 
 <body>
-<header><h1>The Header</h1></header>
+<header>
+    <div style="width: 30%">
+        <h1>Sergio Vidales Perez</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+            <li><a href="#">Resume</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="subtitle">
+    <h2>Cool subtitle here!</h2>
+</div>
 
 <!--About Me Section-->
-<div class="container">
-    <aside><h2>About<br>Me</h2></aside>
-    <div class="box">
-    <article>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac ligula aliquam, pretium massa ut,
-            dignissim massa. Aenean eget enim nisl. Praesent gravida urna quis urna tincidunt, non iaculis nibh
-            feugiat. Donec imperdiet interdum lacus, non aliquet ex sollicitudin eget. Nam ultricies tortor non
-            eleifend cursus. Nunc a odio non purus venenatis aliquet eu ac erat. Pellentesque congue orci nulla, sed
-            volutpat erat auctor ut.</p>
-        <p>Pellentesque sit amet dui condimentum velit egestas vulputate. Etiam venenatis elit in nisi cursus
-            consequat. Aliquam erat volutpat. Donec vulputate urna venenatis tortor placerat, eget volutpat odio
-            eleifend. Vivamus nec risus sit amet lorem sagittis fringilla nec ut massa. Pellentesque porttitor orci
-            et velit mattis, ut venenatis ante viverra. Proin at arcu tellus. Interdum et malesuada fames ac ante
-            ipsum primis in faucibus. Praesent viverra eu ligula in laoreet. Quisque lacus turpis, maximus eu porta
-            nec, ornare et nulla. Duis sed molestie arcu, nec porttitor ipsum. Maecenas a suscipit lorem,
-            pellentesque consequat erat. Nunc et gravida risus.</p>
-    </article>
+<div class="container1">
+    <aside id="about-me" class="aside-margin"><h3>About<br>Me</h3></aside>
+    <div class="container2">
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac ligula aliquam, pretium massa ut,
+                dignissim massa. Aenean eget enim nisl. Praesent gravida urna quis urna tincidunt, non iaculis nibh
+                feugiat. Donec imperdiet interdum lacus, non aliquet ex sollicitudin eget. Nam ultricies tortor non
+                eleifend cursus. Nunc a odio non purus venenatis aliquet eu ac erat. Pellentesque congue orci nulla, sed
+                volutpat erat auctor ut.</p>
+            <p>Pellentesque sit amet dui condimentum velit egestas vulputate. Etiam venenatis elit in nisi cursus
+                consequat. Aliquam erat volutpat. Donec vulputate urna venenatis tortor placerat, eget volutpat odio
+                eleifend. Vivamus nec risus sit amet lorem sagittis fringilla nec ut massa. Pellentesque porttitor orci
+                et velit mattis, ut venenatis ante viverra. Proin at arcu tellus. Interdum et malesuada fames ac ante
+                ipsum primis in faucibus. Praesent viverra eu ligula in laoreet. Quisque lacus turpis, maximus eu porta
+                nec, ornare et nulla. Duis sed molestie arcu, nec porttitor ipsum. Maecenas a suscipit lorem,
+                pellentesque consequat erat. Nunc et gravida risus.</p>
+        </article>
     </div>
 </div>
 
 <!--Work Section-->
-<div class="container">
-    <aside><h2>Work</h2></aside>
-    <div class="box">
-        <div class="background-image-large">
-            <article>
-                <h3>Surf Report</h3>
-                <h4>MERN Stack</h4>
+<div class="container1">
+    <aside id="work"><h3>Work</h3></aside>
+    <div class="container2">
+        <div class="background-image-large img-margin">
+            <article class="card-text">
+                <h4>Surf Report</h4>
+                <h5>MERN Stack</h5>
             </article>
         </div>
-        <div class="background-image-small">
-            <article>
-                <h3>LED Wall</h3>
-                <h4>Node/IoT</h4>
+        <div class="background-image-small img-margin">
+            <article class="card-text">
+                <h4>LED Wall</h4>
+                <h5>Node/IoT</h5>
             </article>
         </div>
-        <div class="background-image-small">
-            <article>
-                <h3>Calculator</h3>
-                <h4>React/JavaScript/CSS</h4>
+        <div class="background-image-small img-margin">
+            <article class="card-text">
+                <h4>Calculator</h4>
+                <h5>React/JavaScript/CSS</h5>
             </article>
         </div>
-        <div class="background-image-small">
-            <article>
-                <h3>Pastel Puzzles</h3>
-                <h4>MERN Stack</h4>
+        <div class="background-image-small img-margin">
+            <article class="card-text">
+                <h4>Pastel Puzzles</h4>
+                <h5>MERN Stack</h5>
             </article>
         </div>
-        <div class="background-image-small">
-            <article>
-                <h3>Run Buddy</h3>
-                <h4>HTML/CSS</h4>
+        <div class="background-image-small img-margin">
+            <article class="card-text">
+                <h4>Run Buddy</h4>
+                <h5>HTML/CSS</h5>
             </article>
         </div>
     </div>
 </div>
 
 <!--Contact Me Section-->
-<div class="container">
-    <div class="contact-me">
-        <aside><h2>Contact<br>Me</h2></aside>
+<div class="container1">
+    <aside id="contact-me"><h3>Contact<br>Me</h3></aside>
+    <div class="container2 contact-me-link contact-me-align">
         <div>
             <a href="tel:555.555.5555">555.555.5555</a>
             <a href="mailto:learnantino@website.com">learnantino@website.com</a>
@@ -83,7 +99,7 @@
     </div>
 </div>
 
-<footer><h5>The Footer</h5></footer>
+<footer><h6>The Footer</h6></footer>
 
 </body>
 
