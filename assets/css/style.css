@@ -11,7 +11,8 @@ header {
 
 .subtitle {
     height: 200px;
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
+    background-image: url("/assets/images/wood-fense.jpg");
 }
 
 .subtitle div {
@@ -26,7 +27,7 @@ nav ul {
 
 body  {
     font-family: monospace;
-    font-size: medium;
+    font-size: xx-large;
     background-color: #ededf6;
 }
 
