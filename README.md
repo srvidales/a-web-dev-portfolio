@@ -15,7 +15,7 @@ and [here](https://git.bootcampcontent.com/University-of-California---Berkeley/U
 - [Contributing](#contributing)
 
 ## About
-The purpose of this challenge is to familiarize the student with the HTML and advanced CSS by creating a portfolio which can be used to showcase work done.
+The purpose of this challenge is to familiarize the student with HTML and advanced CSS by creating a portfolio which can be used to showcase work done.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
