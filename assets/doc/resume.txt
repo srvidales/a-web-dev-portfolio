@@ -1,1 +1,79 @@
-This is a placeholder.
+[Note: The following is a fictitious resume. Any similarity to real persons or events is unintentional.]
+
+---
+
+**James K. Thompson**
+
+[Address]  
+[City, State, ZIP Code]  
+[Phone Number] | [Email Address] | [LinkedIn Profile]
+
+---
+
+**Professional Summary**
+
+Dedicated and seasoned software developer with 25 years of experience in developing, testing, and enhancing software applications for leading global corporations. Proven ability to drive project lifecycles, foster collaborative environments, and innovate solutions for evolving user needs. Expertise in full-stack development, agile methodologies, and team leadership.
+
+---
+
+**Professional Experience**
+
+**Senior Software Engineer** | **Acorns** | Irvine, CA | June 2021 - Present
+- Spearheaded the development of new features for the Acorns app, increasing user engagement by 25%.
+- Collaborated with cross-functional teams, including product managers and UX/UI designers, to ensure product alignment and enhance the user experience.
+- Mentored junior developers, promoting best practices and clean code principles.
+
+**Lead Software Developer** | **Amazon** | Seattle, WA | Jan 2018 - May 2021
+- Led a team of 8 developers in creating scalable solutions for the AWS platform, improving uptime by 99.9%.
+- Innovated a machine learning model integration into the main Amazon e-commerce site, which reduced cart abandonment rate by 10%.
+- Participated in code reviews and provided guidance on optimizing performance and scalability.
+
+**Software Engineer III** | **DELL** | Round Rock, TX | Aug 2014 - Dec 2017
+- Played a pivotal role in transitioning the software development department to a continuous integration/continuous deployment (CI/CD) model, reducing release times by 40%.
+- Developed and maintained tools for internal operations which enhanced workflow efficiency by 35%.
+- Coordinated with global teams to ensure software compatibility and performance in various regions.
+
+**Application Developer** | **Quest Software** | Aliso Viejo, CA | May 2010 - July 2014
+- Pioneered the development of enterprise-level applications, resulting in a 20% growth in business contracts.
+- Enhanced the existing software suite by identifying and fixing over 500 bugs, leading to a 60% reduction in client complaints.
+- Conducted training sessions for internal teams on the latest development tools and techniques.
+
+**Junior Software Developer** | **American Express** | Phoenix, AZ | Mar 2008 - Apr 2010
+- Assisted in the development and maintenance of the American Express online portal, improving transaction speed by 15%.
+- Collaborated with senior developers in streamlining codebases, resulting in a 10% faster deployment time.
+- Actively contributed to weekly agile sprint meetings and quarterly roadmap planning sessions.
+
+---
+
+**Education**
+
+**Bachelor of Science in Computer Science**  
+University of California, Los Angeles (UCLA) | 2004 - 2008
+
+---
+
+**Technical Skills**
+- Programming: Java, Python, C++, JavaScript, PHP
+- Frameworks: React, Angular, Node.js, Django
+- Database Management: SQL, MongoDB, Oracle
+- Tools: Git, Docker, Jenkins, JIRA
+- DevOps: AWS, Azure, CI/CD, Kubernetes
+
+---
+
+**Certifications**
+- AWS Certified Solutions Architect – Associate
+- Oracle Certified Java Programmer (OCJP)
+- Certified Scrum Master (CSM)
+
+---
+
+**Languages**
+- English (Native)
+- Spanish (Conversational)
+
+---
+
+References available upon request.
+
+---
