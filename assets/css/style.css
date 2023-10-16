@@ -189,23 +189,23 @@ footer > section > aside > p {
 }
 
 #main-card > a {
-  background-image: url("/assets/img/photo-large-1.jpg");
+  background-image: url("https://srvidales.github.io/a-web-dev-portfolio/assets/img/photo-large-1.jpg");
 }
 
 #challenge1 > a {
-  background-image: url("/assets/img/photo-small-1.jpg");
+  background-image: url("https://srvidales.github.io/a-web-dev-portfolio/assets/img/photo-small-1.jpg");
 }
 
 #challenge2 > a {
-  background-image: url("/assets/img/photo-small-2.jpg");
+  background-image: url("https://srvidales.github.io/a-web-dev-portfolio/assets/img/photo-small-2.jpg");
 }
 
 #challenge3 > a {
-  background-image: url("/assets/img/photo-small-3.jpg");
+  background-image: url("https://srvidales.github.io/a-web-dev-portfolio/assets/img/photo-small-3.jpg");
 }
 
 #challenge4 > a {
-  background-image: url("/assets/img/photo-small-4.jpg");
+  background-image: url("https://srvidales.github.io/a-web-dev-portfolio/assets/img/photo-small-4.jpg");
 }
 
 #top-image {
