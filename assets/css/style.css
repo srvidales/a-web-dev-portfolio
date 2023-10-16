@@ -1,3 +1,4 @@
+/* Global variables */
 :root {
   --small-card-height: 150px;
   --small-card-width: 400px;
@@ -18,6 +19,7 @@ body {
   min-width: 700px;
 }
 
+/* Add flex and margin to all containers that need it. */
 article,
 aside,
 section {
@@ -25,6 +27,7 @@ section {
   margin: 10px;
 }
 
+/* Header section */
 header {
   align-items: center;
   background-color: var(--header-background-color);
@@ -37,10 +40,16 @@ header > div {
   width: 500px;
 }
 
+/* Article */
 article {
   flex-wrap: wrap;
 }
 
+article > p {
+  margin-right: 15%;
+}
+
+/* Aside */
 aside {
   border-right: 5px solid var(--aside-border-color);
   flex: 0 0 10%;
@@ -50,11 +59,6 @@ aside {
   min-width: 140px;
 }
 
-footer > section > article {
-  justify-content: space-evenly;
-  width: 80%;
-}
-
 aside > p {
   font-size: var(--aside-font-size);
   margin-right: 10px;
@@ -62,10 +66,25 @@ aside > p {
   text-shadow: 3px 3px 3px var(--text-shadow-color);
 }
 
-article > p {
-  margin-right: 15%;
+/* Footer */
+footer > section > article {
+  justify-content: space-evenly;
+  width: 80%;
 }
 
+footer > section > article > a {
+  font-family: "Noto Sans", sans-serif;
+}
+
+footer > section > article {
+  align-items: center;
+}
+
+footer > section > aside > p {
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* H1 */
 h1 {
   background-color: var(--header-name-background-color);
   color: var(--header-name-color);
@@ -75,10 +94,7 @@ h1 {
   text-align: right;
 }
 
-#about-me > aside > p {
-  font-family: "Sofia", sans-serif;
-}
-
+/* Nav */
 nav {
   align-items: center;
   display: inline-flex;
@@ -101,10 +117,6 @@ footer > section > article > a {
   z-index: 1;
 }
 
-footer > section > article > a {
-  font-family: "Noto Sans", sans-serif;
-}
-
 nav > a {
   color: var(--header-link-color);
 }
@@ -121,16 +133,9 @@ footer > section > article > a::before {
   z-index: 0;
 }
 
-footer > section > article {
-  align-items: center;
-}
-
-#work > aside > p {
-  font-family: "Roboto", sans-serif;
-}
-
-footer > section > aside > p {
-  font-family: "Noto Sans", sans-serif;
+/* About Me Section */
+#about-me > aside > p {
+  font-family: "Sofia", sans-serif;
 }
 
 #about-me {
@@ -142,6 +147,12 @@ footer > section > aside > p {
   margin: 5px;
 }
 
+/* Work */
+#work > aside > p {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Card */
 .card > a {
   align-items: flex-start;
   border: 5px solid var(--card-border-color);
@@ -208,6 +219,7 @@ footer > section > aside > p {
   background-image: url("https://srvidales.github.io/a-web-dev-portfolio/assets/img/photo-small-4.jpg");
 }
 
+/* Top Image */
 #top-image {
   align-items: center;
   background-color: var(--top-image-background-color);
@@ -221,6 +233,7 @@ footer > section > aside > p {
   opacity: 80%;
 }
 
+/* Media Queries */
 @media screen and (max-width: 1030px) {
   h1 {
     font-size: 30px;
