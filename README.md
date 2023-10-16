@@ -1,7 +1,7 @@
 # Web Dev Portfolio
 This is your basic Web Dev Portfolio which contains information about the projects done by the aspiring developer and contact information in case someone wants to reach out with hopefuly a job interview!
 
-This is the solution to the UC Berkeley Extensions coding boot camp module 3 challenge.
+This is the solution to the UC Berkeley Extensions coding boot camp module 2 challenge.
 The challenge itself can be
 found [here](https://bootcampspot.instructure.com/courses/3826/assignments/57144?module_item_id=1005044)
 and [here](https://git.bootcampcontent.com/University-of-California---Berkeley/UCB-VIRT-FSF-PT-06-2023-U-LOLC/-/tree/main/02-Advanced-CSS/02-Challenge).
