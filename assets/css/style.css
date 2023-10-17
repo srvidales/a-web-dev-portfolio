@@ -32,12 +32,15 @@ header {
   align-items: center;
   background-color: var(--header-background-color);
   display: flex;
-  height: 80px;
   justify-content: space-between;
 }
 
 header > div {
   width: 500px;
+}
+
+#avatar {
+  padding: 10px;
 }
 
 /* Article */
@@ -233,6 +236,12 @@ footer > section > article > a::before {
   opacity: 80%;
 }
 
+@media screen and (max-width: 1480px) {
+  header {
+    height: 150px;
+  }
+}
+
 /* Media Queries */
 @media screen and (max-width: 1030px) {
   h1 {
@@ -255,5 +264,8 @@ footer > section > article > a::before {
     background-size: cover;
     height: var(--small-card-height);
     width: var(--small-card-width);
+  }
+  header {
+    height: 80px;
   }
 }
